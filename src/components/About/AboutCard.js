@@ -8,22 +8,22 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            ¡Hola! Soy, <span className="purple">Oscar Pillajo</span>{" "}
+            desarrollador web especializado  en crear <span className="purple">landing pages modernas que venden</span>.<br />
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
-            <br />
-            <br />
+            Ayudo a negocios a tener presencia online con páginas simples, rápidas y efectivas desde {" "}
+            <span className="purple">$30 USD</span> {" "} usando tecnologías como
+            <span className="purple"> React, Angular, Nextjs y Nodejs</span>.<br />
+            <br />Actualmente estoy enfocado en ofrecer soluciones para emprendedores, marcas personales y pequeñas empresas que quieren páginas funcionales sin complicarse.{" "}
+            {/* <span className="purple">Mathematics and Computing</span> from{" "} */}
+            {/* <span className="purple">BIT Mesra</span>. */}
+            {/* <br /> */}
+            {/* <br />
             Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            creative and inspired: */}
           </p>
 
-          <ul>
+          {/* <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games 🎮
             </li>
@@ -33,12 +33,12 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Traveling and Exploring New Places 🌍
             </li>
-          </ul>
+          </ul> */}
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Soumyajit</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

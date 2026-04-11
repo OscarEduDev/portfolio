@@ -24,8 +24,9 @@ function About() {
               }}
             >
               <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                Know Who <strong className="purple">I'M</strong>
+                Conoce quién soy <strong className="purple">Yo</strong>
               </h1>
+
               <Aboutcard />
             </Col>
             <Col
@@ -36,8 +37,8 @@ function About() {
               <img src={laptopImg} alt="about" className="img-fluid" />
             </Col>
           </Row>
-          <h1 className="project-heading">
-            Professional <strong className="purple">Skillset </strong>
+          {/* <h1 className="project-heading mb-5">
+            <strong className="purple">Habilidades </strong>Profesionales
           </h1>
 
           <Techstack />
@@ -45,9 +46,9 @@ function About() {
           <h1 className="project-heading">
             <strong className="purple">Tools</strong> I use
           </h1>
-          <Toolstack />
+          <Toolstack /> */}
 
-          <Github />
+          {/* <Github /> */}
         </Container>
       </Container>
     </>

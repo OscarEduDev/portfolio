@@ -22,15 +22,19 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hola!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
+              <h1 className="heading-name mb-5">
+                Soy
+                <strong className="main-name"> Oscar Pillajo</strong>
+              </h1>
+
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                Hago landing pages modernas desde $30 🚀 Entregadas en 24h, personalizadas para tu negocio.
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -49,9 +53,9 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      {/* <Home2 /> */}
 
-      <Container>
+      {/* <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
             <h1>Find Me On</h1>
@@ -102,7 +106,7 @@ function Home() {
             </ul>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </section>
   );
 }
